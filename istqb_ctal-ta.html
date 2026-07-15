@@ -623,6 +623,7 @@
     .btn-submit:disabled { opacity: 0.35; cursor: not-allowed; transform: none; }
 
     .btn-cheat { background: rgba(250,204,21,0.1); color: #fde047; border: 1px solid rgba(250,204,21,0.2); }
+    .btn-link { background: rgba(59,130,246,0.1); color: #93c5fd; border: 1px solid rgba(59,130,246,0.22); }
     .btn-discuss { background: rgba(74,222,128,0.1); color: #86efac; border: 1px solid rgba(74,222,128,0.2); }
     .btn-comments { background: rgba(168,85,247,0.1); color: #c4b5fd; border: 1px solid rgba(168,85,247,0.2); }
     .btn-reset { background: rgba(255,255,255,0.05); color: #888; border: 1px solid rgba(255,255,255,0.08); }
@@ -1025,6 +1026,47 @@
                     <a class="btn btn-discuss hidden" id="q4-discuss" href="#" target="_blank">ExamTopics</a>
                     <button class="btn btn-comments" id="q4-comments" onclick="openComments('q4')">Comments</button>
                     <button class="btn btn-reset hidden" id="q4-reset" onclick="reset('q4')">Retry</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- QUESTION 4 TAE -->
+        <div class="q-card" id="q4tae" data-correct="D"
+             data-link="https://www.examtopics.com/discussions/istqb/view/334704-exam-ctal-tae-topic-1-question-4-discussion/"
+             data-comments='[]'>
+            <div class="q-top" onclick="toggleCard('q4tae')">
+                <span class="q-number">Q4 TAE</span>
+                <span class="q-preview" id="q4tae-preview">You are working as a TAE for a company who have been using a web test execution tool for a...</span>
+                <span class="q-status" id="q4tae-status"></span>
+                <span class="q-toggle">&#9662;</span>
+            </div>
+            <div class="q-body">
+                <div class="q-text" id="q4tae-text">You are working as a TAE for a company who have been using a web test execution tool for a number of years. The tool has been used successfully on ten web applications in the past.The company are developing a new web application which has a friendly User Interface, but the developers have used an object throughout the application which the tool is unable to recognise. As a result, you have no way of capturing the object or verifying the contents using the automation tool.What is the first thing you should do about this problem?</div>
+                <div class="opts" id="q4tae-opts">
+                    <div class="opt" data-val="A" onclick="pick(this,'q4tae')">
+                        <div class="opt-letter">A</div>
+                        <div class="opt-text" data-original="See if the application can be run on a desktop and if the object can be recognised on the desktop by the tool.">See if the application can be run on a desktop and if the object can be recognised on the desktop by the tool.</div>
+                    </div>
+                    <div class="opt" data-val="B" onclick="pick(this,'q4tae')">
+                        <div class="opt-letter">B</div>
+                        <div class="opt-text" data-original="Investigate whether the object can be recognised by other test execution tools in the market.">Investigate whether the object can be recognised by other test execution tools in the market.</div>
+                    </div>
+                    <div class="opt" data-val="C" onclick="pick(this,'q4tae')">
+                        <div class="opt-letter">C</div>
+                        <div class="opt-text" data-original="Ask the developers to remove the object and replace it with some text fields.">Ask the developers to remove the object and replace it with some text fields.</div>
+                    </div>
+                    <div class="opt" data-val="D" onclick="pick(this,'q4tae')">
+                        <div class="opt-letter">D</div>
+                        <div class="opt-text" data-original="Ask the developers if they can change the object to something that can be recognised by the tool.">Ask the developers if they can change the object to something that can be recognised by the tool.</div>
+                    </div>
+                </div>
+                <div class="result-bar" id="q4tae-result"></div>
+                <div class="q-actions">
+                    <button class="btn btn-submit" id="q4tae-submit" onclick="submit('q4tae')" disabled>Submit</button>
+                    <button class="btn btn-cheat" id="q4tae-cheat" onclick="cheat('q4tae')">Sneak Peek</button>
+                    <a class="btn btn-discuss hidden" id="q4tae-discuss" href="#" target="_blank">ExamTopics</a>
+                    <button class="btn btn-comments" id="q4tae-comments" onclick="openComments('q4tae')">Comments</button>
+                    <button class="btn btn-reset hidden" id="q4tae-reset" onclick="reset('q4tae')">Retry</button>
                 </div>
             </div>
         </div>
@@ -3457,6 +3499,47 @@
             </div>
         </div>
 
+        <!-- QUESTION 61 TAE -->
+        <div class="q-card" id="q61tae" data-correct="B"
+             data-link="https://www.examtopics.com/discussions/istqb/view/315420-exam-ctal-tae-topic-1-question-61-discussion/"
+             data-comments='[]'>
+            <div class="q-top" onclick="toggleCard('q61tae')">
+                <span class="q-number">Q61 TAE</span>
+                <span class="q-preview" id="q61tae-preview">In which way would a feature toggle configuration be used?</span>
+                <span class="q-status" id="q61tae-status"></span>
+                <span class="q-toggle">&#9662;</span>
+            </div>
+            <div class="q-body">
+                <div class="q-text" id="q61tae-text">In which way would a feature toggle configuration be used?</div>
+                <div class="opts" id="q61tae-opts">
+                    <div class="opt" data-val="A" onclick="pick(this,'q61tae')">
+                        <div class="opt-letter">A</div>
+                        <div class="opt-text" data-original="To identify the test data sets needed for a test suite.">To identify the test data sets needed for a test suite.</div>
+                    </div>
+                    <div class="opt" data-val="B" onclick="pick(this,'q61tae')">
+                        <div class="opt-letter">B</div>
+                        <div class="opt-text" data-original="To identify a test environment configuration.">To identify a test environment configuration.</div>
+                    </div>
+                    <div class="opt" data-val="C" onclick="pick(this,'q61tae')">
+                        <div class="opt-letter">C</div>
+                        <div class="opt-text" data-original="To identify which test suites to execute.">To identify which test suites to execute.</div>
+                    </div>
+                    <div class="opt" data-val="D" onclick="pick(this,'q61tae')">
+                        <div class="opt-letter">D</div>
+                        <div class="opt-text" data-original="To identify which oracle to use for verification.">To identify which oracle to use for verification.</div>
+                    </div>
+                </div>
+                <div class="result-bar" id="q61tae-result"></div>
+                <div class="q-actions">
+                    <button class="btn btn-submit" id="q61tae-submit" onclick="submit('q61tae')" disabled>Submit</button>
+                    <button class="btn btn-cheat" id="q61tae-cheat" onclick="cheat('q61tae')">Sneak Peek</button>
+                    <a class="btn btn-discuss hidden" id="q61tae-discuss" href="#" target="_blank">ExamTopics</a>
+                    <button class="btn btn-comments" id="q61tae-comments" onclick="openComments('q61tae')">Comments</button>
+                    <button class="btn btn-reset hidden" id="q61tae-reset" onclick="reset('q61tae')">Retry</button>
+                </div>
+            </div>
+        </div>
+
         <!-- QUESTION 62 -->
         <div class="q-card" id="q62" data-correct="C,D"
              data-link="https://www.examtopics.com/discussions/istqb/view/327764-exam-ctal-ta-topic-1-question-67-discussion/"
@@ -3940,6 +4023,24 @@
       });
     });
 
+        document.querySelectorAll(".q-card").forEach((card) => {
+            const id = card.id;
+            const actions = document.querySelector(`#${id} .q-actions`);
+            const commentsBtn = document.getElementById(`${id}-comments`);
+            if (!actions || !commentsBtn || document.getElementById(`${id}-link`)) return;
+
+            const link = document.createElement("a");
+            link.className = "btn btn-link";
+            link.id = `${id}-link`;
+            link.textContent = "Link";
+            link.title = "View on ExamTopics";
+            link.href = card.dataset.link || "#";
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+
+            actions.insertBefore(link, commentsBtn);
+        });
+
     /* ===== SEARCH ===== */
     let searchTimeout;
     function handleSearch() {
@@ -3984,7 +4085,7 @@
         const id = card.id;
         const bodyText = document.getElementById(`${id}-text`).textContent;
         const optsText = originals[id].opts.join(" ");
-        const qNum = id.replace("q", "");
+                const qNum = (id.match(/^q(\d+)/) || ["", ""])[1];
         const fullText = `Q${qNum} ${originals[id].preview} ${bodyText} ${optsText}`.toLowerCase();
 
         const match = qNumMatch ? qNum === qNumMatch[1] : fullText.includes(query);
